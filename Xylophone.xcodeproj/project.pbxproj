@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6247C15C2C2EDA3800B85F3D /* xylophoneimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6247C15B2C2EDA3800B85F3D /* xylophoneimage.png */; };
+		6247C15E2C2EDAE800B85F3D /* landscapeimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6247C15D2C2EDAE800B85F3D /* landscapeimage.png */; };
 		AD937BF622C61DBB002E2D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD937BF522C61DBB002E2D88 /* AppDelegate.swift */; };
 		AD937BF822C61DBB002E2D88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD937BF722C61DBB002E2D88 /* SceneDelegate.swift */; };
 		AD937BFA22C61DBB002E2D88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD937BF922C61DBB002E2D88 /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6247C15B2C2EDA3800B85F3D /* xylophoneimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xylophoneimage.png; sourceTree = "<group>"; };
+		6247C15D2C2EDAE800B85F3D /* landscapeimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscapeimage.png; sourceTree = "<group>"; };
 		AD937BF222C61DBB002E2D88 /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD937BF522C61DBB002E2D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD937BF722C61DBB002E2D88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,9 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6247C1582C2ED8FE00B85F3D /* Documentations */ = {
+			isa = PBXGroup;
+			children = (
+				6247C15D2C2EDAE800B85F3D /* landscapeimage.png */,
+				6247C15B2C2EDA3800B85F3D /* xylophoneimage.png */,
+			);
+			path = Documentations;
+			sourceTree = "<group>";
+		};
 		AD937BE922C61DBB002E2D88 = {
 			isa = PBXGroup;
 			children = (
+				6247C1582C2ED8FE00B85F3D /* Documentations */,
 				ADE587E822CB4D36007F0F9A /* README.md */,
 				AD937BF422C61DBB002E2D88 /* Xylophone */,
 				AD937BF322C61DBB002E2D88 /* Products */,
@@ -163,6 +177,8 @@
 				ADE587EB22CB5121007F0F9A /* LaunchScreen.storyboard in Resources */,
 				ADE587E922CB4D36007F0F9A /* README.md in Resources */,
 				ADE587F922CB513D007F0F9A /* D.wav in Resources */,
+				6247C15E2C2EDAE800B85F3D /* landscapeimage.png in Resources */,
+				6247C15C2C2EDA3800B85F3D /* xylophoneimage.png in Resources */,
 				ADE587F522CB513D007F0F9A /* C.wav in Resources */,
 				ADE587F822CB513D007F0F9A /* B.wav in Resources */,
 				ADE587F322CB513D007F0F9A /* A.wav in Resources */,
